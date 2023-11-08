@@ -9,7 +9,7 @@ pipeline {
     registyUrl = "nottieacr.azurecr.io"
     IMAGE_NAME = "nodejswebapp"
     IMAGE_TAG = "v1.0.0"
-    registryCredential  = "a77d80be-d715-4901-a2e9-8ebcafb616e6"
+    registryCredential  = "nottie-acr"
     }
     stages { 
         stage('SCM Checkout') {
